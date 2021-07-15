@@ -1,0 +1,52 @@
+.height-100{
+    height: 100vh;
+}
+
+.height-80{
+    height: 80vh;
+}
+
+.flex-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.flex-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.responsive{
+    height: 40vh;
+    width: auto;
+}
+
+.form-text{
+    margin: 0 1rem 0 0;
+}
+
+.form-label{
+    margin: auto 1rem auto 0;
+}
+
+@media (max-width: 480px){
+    .height-100{
+        height: 120vh;
+    }
+
+    .flex-1{
+        flex-direction: column;
+    }
+
+    .form-text{
+        margin: 0 0 1rem 0 ;
+    }
+
+    .form-label{
+        margin: 0 0 1rem 0 ;
+    }
+}
